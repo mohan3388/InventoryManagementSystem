@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InventoryManagement
 {
-    public class FetchInventoryDetails
+    public class InventoryDetails
     {
         public Rice Read(string path)
         {

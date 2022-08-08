@@ -4,12 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            FetchInventoryDetails fetchInventoryDetails = new FetchInventoryDetails();
-
+            
+            InventoryDetails inventoryDetails = new InventoryDetails(); 
 
             string filepath = @"F:\dotnet\Inventory\InventoryManagementSystem\InventoryManagement\InventoryManagement\Inventory.json";
 
-            Rice data = fetchInventoryDetails.Read(filepath);
+
+            Rice data = inventoryDetails.Read(filepath);
 
             for (int i = 0; i < data.typesofRice.Count; i++)
             {
@@ -20,6 +21,7 @@
 
                 Console.WriteLine("--------------");
             }
+
 
 
         }
