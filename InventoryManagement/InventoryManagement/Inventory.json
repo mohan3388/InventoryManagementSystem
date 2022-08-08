@@ -1,18 +1,16 @@
-[
-  {
-    "name": "Rice",
-    "weight": 15,
-    "pricekg": 10
-  },
-  {
-    "name": "Wheat",
-    "weight": 20,
-    "pricekg": 20
-  },
-  {
-    "name": "Pulses",
-    "weight": 20,
-    "pricekg": 20
-  }
+{
+  "TypesofRice": [
+    {
+      "name": "Basumati",
+      "weight": 4,
+      "price": 240
+    },
 
-]
+    {
+      "name": "Rice1",
+      "weight": 6,
+      "price": 180
+    }
+  ]
+
+}
