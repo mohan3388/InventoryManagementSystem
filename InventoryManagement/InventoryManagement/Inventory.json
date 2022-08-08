@@ -1,16 +1,17 @@
-{
-  "TypesofRice": [
-    {
-      "name": "Basumati",
-      "weight": 4,
-      "price": 240
-    },
-
-    {
-      "name": "Rice1",
-      "weight": 6,
-      "price": 180
-    }
-  ]
-
-}
+[
+  {
+    "NumberOFShare": 5,
+    "SharePrice": 500,
+    "StockName": "DomesticStock"
+  },
+  {
+    "NumberOFShare": 10,
+    "SharePrice": 5000,
+    "StockName": "PreferdStock"
+  },
+  {
+    "NumberOFShare": 10,
+    "SharePrice": 4500,
+    "StockName": "InvestStock"
+  }
+] 
